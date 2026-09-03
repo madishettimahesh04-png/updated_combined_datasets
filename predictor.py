@@ -24,8 +24,7 @@ print(f"Using device: {DEVICE}")
 # --------------------------------------------------
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-
-MODELS = os.path.join(BASE_DIR, "models")
+MODELS = BASE_DIR
 
 # --------------------------------------------------
 # Load Saved Objects
